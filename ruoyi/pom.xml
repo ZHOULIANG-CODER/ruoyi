@@ -52,10 +52,32 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.3</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.jcraft/jsch -->
+		<dependency>
+			<groupId>com.jcraft</groupId>
+			<artifactId>jsch</artifactId>
+			<version>0.1.54</version>
+		</dependency>
+
+
 		<!-- SpringBoot 拦截器 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.12</version>
+			<scope>provided</scope>
 		</dependency>
 
 		<!-- SpringBoot Web容器 -->
@@ -88,13 +110,60 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-pool2</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>com.mchange</groupId>
+					<artifactId>c3p0</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>simple-jndi</groupId>
+			<artifactId>simple-jndi</artifactId>
+			<version>0.11.4.1</version>
+		</dependency>
 		<!-- Mysql驱动包 -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
+			<version>5.1.49</version>
+
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/pentaho-kettle/kettle-core -->
+		<dependency>
+			<groupId>pentaho-kettle</groupId>
+			<artifactId>kettle-core</artifactId>
+			<version>7.0.0.0-25</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-vfs2 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-vfs2</artifactId>
+			<version>2.0</version>
+		</dependency>
+
+
+
+		<!-- https://mvnrepository.com/artifact/pentaho-kettle/kettle-engine -->
+		<dependency>
+			<groupId>pentaho-kettle</groupId>
+			<artifactId>kettle-engine</artifactId>
+			<version>7.0.0.0-25</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/pentaho/metastore -->
+		<dependency>
+		<groupId>pentaho</groupId>
+		<artifactId>metastore</artifactId>
+		<version>8.1.0.0-365</version>
+	    </dependency>
+
 
 		<!-- SpringBoot集成mybatis框架 -->
 		<dependency>
@@ -155,6 +224,20 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context-support</artifactId>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.example</groupId>
+			<artifactId>demo</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.zhouliang</groupId>
+			<artifactId>commonUtils</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<scope>compile</scope>
 		</dependency>
 		
         <!--Token生成与解析-->
@@ -230,7 +313,17 @@
 			<artifactId>velocity</artifactId>
 			<version>${velocity.version}</version>
 		</dependency>
-
+		<!--二维码-->
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>core</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>javase</artifactId>
+			<version>3.1.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

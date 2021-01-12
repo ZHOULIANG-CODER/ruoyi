@@ -52,7 +52,7 @@ import com.ruoyi.common.utils.StringUtils;
 import com.ruoyi.common.utils.reflect.ReflectUtils;
 
 /**
- * Excel相关处理
+ * Excel相关处理 可以使用easypoi导出多级表头 https://easypoi.mydoc.io/#category_50222
  * 
  * @author ruoyi
  */

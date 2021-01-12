@@ -26,7 +26,7 @@ export default {
   },
   data() {
     return {
-      title: '若依管理系统',
+      title: '管理系统',
       logo: logoImg
     }
   }
@@ -48,7 +48,7 @@ export default {
   width: 100%;
   height: 50px;
   line-height: 50px;
-  background: #2b2f3a;
+  background: #3A71A8;
   text-align: center;
   overflow: hidden;
 

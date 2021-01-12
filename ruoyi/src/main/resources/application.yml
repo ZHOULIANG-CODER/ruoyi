@@ -16,7 +16,7 @@ ruoyi:
 # 开发环境配置
 server:
   # 服务器的HTTP端口，默认为8080
-  port: 8080
+  port: 8088
   servlet:
     # 应用的访问路径
     context-path: /
@@ -42,7 +42,7 @@ spring:
     # 国际化资源文件路径
     basename: i18n/messages
   profiles: 
-    active: druid
+    active: dev
   # 文件上传
   servlet:
      multipart:
@@ -62,7 +62,7 @@ spring:
     # 端口，默认为6379
     port: 6379
     # 密码
-    password: 
+    password:
     # 连接超时时间
     timeout: 10s
     lettuce:
@@ -120,3 +120,7 @@ gen:
   autoRemovePre: false
   # 表前缀（生成类名不会包含表前缀，多个用逗号分隔）
   tablePrefix: sys_
+
+kettle:
+  script:
+    path: F://kettle//

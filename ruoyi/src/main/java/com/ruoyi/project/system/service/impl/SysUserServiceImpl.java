@@ -1,10 +1,15 @@
 package com.ruoyi.project.system.service.impl;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.UUID;
+
+import com.ruoyi.framework.redis.Message;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import com.ruoyi.common.constant.UserConstants;
@@ -53,6 +58,8 @@ public class SysUserServiceImpl implements ISysUserService
     @Autowired
     private ISysConfigService configService;
 
+    @Autowired
+    private RedisTemplate<Object, Object> redisTemplate;
     /**
      * 根据条件分页查询用户列表
      * 

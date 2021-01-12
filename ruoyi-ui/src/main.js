@@ -20,6 +20,8 @@ import { getDicts } from "@/api/system/dict/data";
 import { getConfigKey } from "@/api/system/config";
 import { parseTime, resetForm, addDateRange, selectDictLabel, download, handleTree } from "@/utils/ruoyi";
 import Pagination from "@/components/Pagination";
+import  VueQuillEditor from 'vue-quill-editor'
+
 
 // 全局方法挂载
 Vue.prototype.getDicts = getDicts
@@ -47,7 +49,7 @@ Vue.prototype.msgInfo = function (msg) {
 Vue.component('Pagination', Pagination)
 
 Vue.use(permission)
-
+Vue.use(VueQuillEditor)
 /**
  * If you don't want to use mock-server
  * you want to use MockJs for mock api

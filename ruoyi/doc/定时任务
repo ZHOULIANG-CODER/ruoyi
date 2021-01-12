@@ -1,0 +1,24 @@
+说明：
+1.通过策略(是否支持并发),通过反射找到对应的类，调用对应的方法
+2.项目启动，扫描，初始化所有的定时任务
+
+涉及的工具类：
+ScheduleUtils 定时任务执行类
+JobInvokeUtil 定时任务反射类
+CronUtils     cron表达式校验
+
+
+注册
+scheduler.scheduleJob
+
+立即执行：
+scheduler.triggerJob
+
+恢复任务
+scheduler.resumeJob
+
+删除任务
+scheduler.deleteJob
+
+暂停任务
+scheduler.pauseJob

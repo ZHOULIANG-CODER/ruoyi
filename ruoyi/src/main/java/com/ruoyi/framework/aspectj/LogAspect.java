@@ -4,6 +4,9 @@ import java.lang.reflect.Method;
 import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import com.ruoyi.common.enums.RedisPublishClassify;
+import com.ruoyi.framework.redis.Message;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -13,6 +16,7 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.HandlerMapping;
@@ -113,10 +117,14 @@ public class LogAspect
             // 处理设置注解上的参数
             getControllerMethodDescription(joinPoint, controllerLog, operLog);
             // 保存数据库
-            AsyncManager.me().execute(AsyncFactory.recordOper(operLog));
+            // AsyncManager.me().execute(AsyncFactory.recordOper(operLog));
+            RedisTemplate<Object, Object> redisTemplate=  SpringUtils.getBean("redisTemplate");
+            Message message =new Message();
+            message.setOperLog(operLog);
+            // redis发布订阅 -- redisconfig 构建适配器 找到对应的method
+            redisTemplate.convertAndSend(RedisPublishClassify.LOG.toString().toLowerCase(),message);
         }
-        catch (Exception exp)
-        {
+        catch (Exception exp) {
             // 记录本地异常日志
             log.error("==前置通知异常==");
             log.error("异常信息:{}", exp.getMessage());

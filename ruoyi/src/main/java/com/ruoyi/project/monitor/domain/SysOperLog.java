@@ -16,6 +16,7 @@ public class SysOperLog extends BaseEntity
 
     /** 日志主键 */
     @Excel(name = "操作序号", cellType = ColumnType.NUMERIC)
+
     private Long operId;
 
     /** 操作模块 */

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.expense.mapper.ExpenseMapper">
+
+    <resultMap type="ExpendDay" id="ExpendDayResult">
+        <id     property="id"        column="id"           />
+        <result property = "amount"	     column ="amount" />
+        <result property = "remark"	     column ="remark" />
+        <result property = "maicai"	     column ="maicai" />
+        <result property = "shuiguo"     column ="shuiguo" />
+        <result property = "jiaotong"    column ="jiaotong" />
+        <result property = "guangjie"    column ="guangjie" />
+        <result property = "wanggou"     column ="wanggou" />
+        <result property = "lingshi"     column ="lingshi" />
+        <result property = "jiacan"	     column ="jiacan" />
+        <result property = "qingke"	     column ="qingke" />
+        <result property = "qita"	     column ="qita" />
+        <result property = "createTime"	     column ="create_time" />
+        <result property = "status"	     column ="status" />
+    </resultMap>
+
+    <select id="listExpensesZl" resultMap="ExpendDayResult" parameterType="QueryDo">
+        select * from  expend_day where status =0
+         <if test="start != null and end !=null">
+             AND date_format(create_time,'%y%m%d') BETWEEN date_format(#{start},'%y%m%d')
+             and date_format(#{end},'%y%m%d')
+         </if>
+         order by  create_time desc
+    </select>
+
+    <insert id="insertExpense"  parameterType="ExpendDay" useGeneratedKeys="true" keyProperty="id">
+         insert into  expend_day (
+         amount,remark,maicai,shuiguo,jiaotong,guangjie,wanggou,lingshi,jiacan,qingke,qita,create_time,status
+         ) VALUES (
+         #{amount},  #{remark}, #{maicai}, #{shuiguo},#{jiaotong},#{guangjie},#{wanggou},#{lingshi},#{jiacan},#{qingke},#{qita},#{createTime},0
+         )
+    </insert>
+
+    <select id="selectExpenseDetailById" parameterType="long" resultMap="ExpendDayResult">
+        select  * from expend_day where id =#{id}
+    </select>
+
+    <update id="updateExpense" parameterType="ExpendDay" >
+        update expend_day
+        set
+        amount= #{amount},
+        remark= #{remark},
+        maicai = #{maicai},
+        shuiguo = #{shuiguo},
+       jiaotong= #{jiaotong},guangjie=#{guangjie},wanggou= #{wanggou},
+      lingshi= #{lingshi},jiacan= #{jiacan},qingke= #{qingke},qita =  #{qita}
+    </update>
+
+    <update id="deleteExpenseById" parameterType="long" >
+        update expend_day
+        set
+        status = 1
+        where id =#{id}
+
+    </update>
+</mapper>

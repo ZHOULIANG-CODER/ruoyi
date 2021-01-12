@@ -26,7 +26,6 @@ import com.ruoyi.project.system.service.ISysUserOnlineService;
 /**
  * 在线用户监控
  * 
- * @author ruoyi
  */
 @RestController
 @RequestMapping("/monitor/online")
@@ -44,7 +43,8 @@ public class SysUserOnlineController extends BaseController
     {
         Collection<String> keys = redisCache.keys(Constants.LOGIN_TOKEN_KEY + "*");
         List<SysUserOnline> userOnlineList = new ArrayList<SysUserOnline>();
-        for (String key : keys)
+        // 名字相同  ip相同  或者不同
+               for (String key : keys)
         {
             LoginUser user = redisCache.getCacheObject(key);
             if (StringUtils.isNotEmpty(ipaddr) && StringUtils.isNotEmpty(userName))

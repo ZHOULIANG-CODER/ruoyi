@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="commonUtils">
+    <output-path>$PROJECT_DIR$/out/artifacts/commonUtils</output-path>
+    <root id="archive" name="commonUtils.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils" />
+    </root>
+  </artifact>
+</component>

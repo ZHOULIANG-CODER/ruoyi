@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="commonUtils" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="619d9739-4050-408b-89e4-9a0efc0515b4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/expense/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/expense/zhoul.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/monitor/job.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/plan/quill-title.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/system/dict/branch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/expend/zhouliang/index.vue" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/plan/daliy/index.vue" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/joblist/index.vue" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/Maintest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/constant/ScheduleConstants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/enums/RedisPublishClassify.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/TaskException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/BeanUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/CronUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/JobInvokeUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/QRCodeUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/ScheduleUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/listener/QuarzSimple.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/listener/TimerSchedulerListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/listener/TriggerListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/Message.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/Receiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/SendAndStorageProcess.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/TaskExecutorConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/expense/controller/ExpenseController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/expense/domain/ExpendDay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/expense/domain/QueryDo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/expense/mapper/ExpenseMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/expense/service/ExpenseService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/kettle/controller/KettleCtrl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/kettle/service/KettleService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/controller/SysJobController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/domain/SysJob.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/execution/QuartzDisallowConcurrentExecution.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/execution/QuartzJobExecution.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/job/AbstractQuartzJob.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/mapper/SysJobMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/service/ISysJobService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/service/impl/SysJobServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/task/HelloTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/task/RyTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/task/TaskFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/resources/application-dev.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/expense/ExpendDayMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/job/SysJobMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/package.json" afterPath="$PROJECT_DIR$/ruoyi-ui/package.json" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/ruoyi.scss" afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/ruoyi.scss" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/variables.scss" afterPath="$PROJECT_DIR$/ruoyi-ui/src/assets/styles/variables.scss" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/Logo.vue" afterPath="$PROJECT_DIR$/ruoyi-ui/src/layout/components/Sidebar/Logo.vue" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/main.js" afterPath="$PROJECT_DIR$/ruoyi-ui/src/main.js" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/permission.js" afterPath="$PROJECT_DIR$/ruoyi-ui/src/permission.js" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/router/index.js" afterPath="$PROJECT_DIR$/ruoyi-ui/src/router/index.js" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/settings.js" afterPath="$PROJECT_DIR$/ruoyi-ui/src/settings.js" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/permission.js" afterPath="$PROJECT_DIR$/ruoyi-ui/src/store/modules/permission.js" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/login.vue" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/login.vue" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/job/index.vue" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/job/index.vue" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/logininfor/index.vue" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/logininfor/index.vue" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/notice/index.vue" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/notice/index.vue" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/index.vue" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/index.vue" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/vue.config.js" afterPath="$PROJECT_DIR$/ruoyi-ui/vue.config.js" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/pom.xml" afterPath="$PROJECT_DIR$/ruoyi/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/RuoYiApplication.java" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/RuoYiApplication.java" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/MessageUtils.java" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/MessageUtils.java" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/poi/ExcelUtil.java" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/poi/ExcelUtil.java" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/RedisConfig.java" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/RedisConfig.java" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/service/TokenService.java" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/service/TokenService.java" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/controller/SysUserOnlineController.java" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/controller/SysUserOnlineController.java" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/domain/SysOperLog.java" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/domain/SysOperLog.java" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysUserController.java" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysUserController.java" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysUserServiceImpl.java" afterPath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysUserServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/application-druid.yml" afterPath="$PROJECT_DIR$/ruoyi/src/main/resources/application-druid.yml" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/ruoyi/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/banner.txt" afterPath="$PROJECT_DIR$/ruoyi/src/main/resources/banner.txt" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/monitor/SysOperLogMapper.xml" afterPath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/monitor/SysOperLogMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysUserMapper.xml" afterPath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysUserMapper.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/ruoyi/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>invoke_ta</find>
+      <find>qu</find>
+      <find>LOGIN_TOKEN_KEY</find>
+      <find>getTokenKey</find>
+      <find>http</find>
+      <find>core</find>
+      <find>ora</find>
+      <find>handleImport</find>
+      <find>执行一次</find>
+      <find>system/log</find>
+      <find>router-view</find>
+      <find>:format</find>
+      <find>formatter</find>
+      <find>chufaType</find>
+      <find>typeFormat</find>
+      <find>parseDate</find>
+      <find>parsePatterns</find>
+      <find>@Bean(name = &quot;59 * * * * ? &quot;)</find>
+      <find>JobInvokeUtil</find>
+      <find>threadTaskExecutor</find>
+      <find>消息内容为</find>
+      <find>消息成功</find>
+      <find>报错信息xxxxx</find>
+      <find>xxl-job</find>
+      <find>/login</find>
+      <find>scheduledExecutorService</find>
+      <find>smsMessage</find>
+      <find>ech</find>
+      <find>nameList</find>
+      <find>initChart</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/job/SysJobMapper.xml" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/controller/execution/QuartzJobExecution.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/execution/QuartzDisallowConcurrentExecution.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/execution/QuartzJobExecution.java" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/vue.config.js" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/api/system/dict/branch.js" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/login.vue" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/resources/banner.txt" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/index.vue" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/enums/RedisPublishClassify.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/domain/SysOperLog.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/monitor/SysOperLogMapper.xml" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/Receiver.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/Message.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/poi/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/job/index.vue" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/kettle/controller/KettleCtrl.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/SendAndStorageProcess.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/service/impl/SysJobServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/task/HelloTask.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/controller/SysUserOnlineController.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/kettle/service/KettleService.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/jobmonitor/list/joblist.vue" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/jobmonitor/list/index.vue" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/jobmonitor/list.vue" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/expend/jobmonitor/list.vue" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/plan/joblist/index.vue" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/monitor/jobmonitor/index.vue" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/system/notice/index.vue" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/system/joblist/index.vue" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/Maintest.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/task/TaskFactory.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/TaskExecutorConfig.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/job/AbstractQuartzJob.java" />
+        <option value="$PROJECT_DIR$/ruoyi/doc/定时任务" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/listener/TriggerListener.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/RuoYiApplication.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/listener/QuarzSimple.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/ScheduleUtils.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/listener/TimerSchedulerListener.java" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/task/RyTask.java" />
+        <option value="$PROJECT_DIR$/ruoyi/pom.xml" />
+        <option value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/QRCodeUtils.java" />
+        <option value="$PROJECT_DIR$/ruoyi-ui/src/views/plan/daliy/index.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\zhenxinRepository" />
+        <option name="mavenHome" value="F:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/ruoyi-ui/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="447" />
+    <option name="y" value="48" />
+    <option name="width" value="874" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RuoYi-Vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RuoYi-Vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28715876" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.6" />
+    <property name="SearchEverywhereHistoryKey" value="OracleDriver&#9;PSI&#9;JAVA://oracle.jdbc.OracleDriver&#10;task&#9;FILE&#9;file://F:/ruoyi/RuoYi-Vue/ruoyi/src/main/java/com/ruoyi/project/monitor/task/RyTask.java&#10;ryTask&#9;FILE&#9;file://F:/ruoyi/RuoYi-Vue/ruoyi/src/main/java/com/ruoyi/project/monitor/task/RyTask.java&#10;SysOperLog&#9;PSI&#9;JAVA://com.ruoyi.project.monitor.domain.SysOperLog&#10;MapperScannerRegistrar&#9;PSI&#9;JAVA://org.mybatis.spring.annotation.MapperScannerRegistrar&#10;MapperScan &#9;PSI&#9;JAVA://org.mybatis.spring.annotation.MapperScan&#10;SqlSessionFactory&#9;PSI&#9;JAVA://org.apache.ibatis.session.SqlSessionFactoryBuilder&#10;DataScopeAspect&#9;PSI&#9;JAVA://com.ruoyi.framework.aspectj.DataScopeAspect&#10;login.v&#9;FILE&#9;file://F:/ruoyi/RuoYi-Vue/ruoyi-ui/src/views/login.vue" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ruoyi\RuoYi-Vue\ruoyi-ui\src\views\system" />
+      <recent name="F:\ruoyi\RuoYi-Vue\ruoyi-ui\src\views\plan" />
+      <recent name="F:\ruoyi\RuoYi-Vue\ruoyi-ui\src\views\monitor" />
+      <recent name="F:\ruoyi\RuoYi-Vue\ruoyi-ui\src\views\monitor\jobmonitor\list" />
+      <recent name="F:\ruoyi\RuoYi-Vue\ruoyi-ui\src\views\monitor\jobmonitor" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ruoyi.project.monitor.task" />
+      <recent name="com.ruoyi.common.enums" />
+      <recent name="com.ruoyi.project.monitor.job" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ruoyi\RuoYi-Vue\ruoyi-ui\src\views\expend" />
+      <recent name="F:\ruoyi\RuoYi-Vue\ruoyi-ui\src\views\monitor\jobmonitor" />
+      <recent name="F:\ruoyi\RuoYi-Vue\ruoyi-ui\src\api\system\dict" />
+      <recent name="F:\ruoyi\RuoYi-Vue\ruoyi\src\main\java\com\ruoyi\project\monitor\controller\execution" />
+      <recent name="F:\ruoyi\RuoYi-Vue\ruoyi-ui\src\views\plan\daliy" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RuoYiApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="KettleService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ruoyi.project.kettle.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ruoyi.project.kettle.service.KettleService" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ruoyi" />
+      <envs />
+    </configuration>
+    <configuration name="Maintest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ruoyi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ruoyi.Maintest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ruoyi" />
+      <envs />
+    </configuration>
+    <configuration name="QRCodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ruoyi.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ruoyi.common.utils.QRCodeUtils" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ruoyi" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiApplication" />
+      <module name="ruoyi" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.RuoYiApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Maintest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.KettleService" />
+      <item index="3" class="java.lang.String" itemvalue="Application.QRCodeUtils" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.QRCodeUtils" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Maintest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.KettleService" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="619d9739-4050-408b-89e4-9a0efc0515b4" name="Default" comment="" />
+      <created>1583996845361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583996845361</updated>
+      <workItem from="1583996850284" duration="9393000" />
+      <workItem from="1584017129921" duration="4332000" />
+      <workItem from="1584026878733" duration="827000" />
+      <workItem from="1584166061687" duration="4288000" />
+      <workItem from="1585748019112" duration="832000" />
+      <workItem from="1585838538506" duration="955000" />
+      <workItem from="1586921948996" duration="1798000" />
+      <workItem from="1586953164273" duration="49000" />
+      <workItem from="1590592664814" duration="787000" />
+      <workItem from="1591426544514" duration="10571000" />
+      <workItem from="1591453322979" duration="8445000" />
+      <workItem from="1591514928996" duration="4947000" />
+      <workItem from="1601445908581" duration="5556000" />
+      <workItem from="1601455864524" duration="704000" />
+      <workItem from="1601468541576" duration="99000" />
+      <workItem from="1601472229332" duration="529000" />
+      <workItem from="1601903057762" duration="583000" />
+      <workItem from="1601954210264" duration="783000" />
+      <workItem from="1602229308997" duration="6404000" />
+      <workItem from="1602506149377" duration="4017000" />
+      <workItem from="1602551586375" duration="21006000" />
+      <workItem from="1602593316451" duration="4319000" />
+      <workItem from="1602637963282" duration="6069000" />
+      <workItem from="1602656691708" duration="10034000" />
+      <workItem from="1602725989297" duration="20788000" />
+      <workItem from="1602812149070" duration="75000" />
+      <workItem from="1602826552143" duration="12677000" />
+      <workItem from="1603074671965" duration="65000" />
+      <workItem from="1603074824634" duration="12434000" />
+      <workItem from="1603112453188" duration="129000" />
+      <workItem from="1603159221088" duration="618000" />
+      <workItem from="1603175074837" duration="8259000" />
+      <workItem from="1603199286826" duration="27000" />
+      <workItem from="1603336324288" duration="12562000" />
+      <workItem from="1603803343727" duration="4173000" />
+      <workItem from="1603894976228" duration="3113000" />
+      <workItem from="1603935185781" duration="26000" />
+      <workItem from="1603977766559" duration="3835000" />
+      <workItem from="1603984381734" duration="621000" />
+      <workItem from="1604382912043" duration="958000" />
+      <workItem from="1604384191009" duration="10180000" />
+      <workItem from="1604452959511" duration="2588000" />
+      <workItem from="1604904887110" duration="4671000" />
+      <workItem from="1604911083190" duration="1703000" />
+      <workItem from="1604971371977" duration="116000" />
+      <workItem from="1607930290920" duration="10521000" />
+      <workItem from="1607994717436" duration="274000" />
+      <workItem from="1607997689161" duration="9424000" />
+      <workItem from="1608016776508" duration="9372000" />
+      <workItem from="1608081417356" duration="9171000" />
+      <workItem from="1608108146853" duration="5095000" />
+      <workItem from="1608167556633" duration="9904000" />
+      <workItem from="1608190486829" duration="7380000" />
+      <workItem from="1608257182740" duration="15273000" />
+      <workItem from="1608529931923" duration="900000" />
+      <workItem from="1608686292655" duration="5075000" />
+      <workItem from="1608713692592" duration="434000" />
+      <workItem from="1608772169991" duration="259000" />
+      <workItem from="1608773714715" duration="922000" />
+      <workItem from="1608774684143" duration="14264000" />
+      <workItem from="1608860727548" duration="3911000" />
+      <workItem from="1609206575854" duration="9974000" />
+      <workItem from="1609834630650" duration="7842000" />
+      <workItem from="1609985325164" duration="5139000" />
+      <workItem from="1610350377075" duration="3456000" />
+      <workItem from="1610415034881" duration="18749000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="354284000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41530946" sideWeight="0.5030257" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13464448" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.534202" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7605863" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3485342" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28971255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16641453" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysUserServiceImpl.java</url>
+          <line>220</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/kettle/service/KettleService.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/kettle/service/KettleService.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>context.getMergedJobDataMap()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/listener/TimerSchedulerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1807">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/listener/QuarzSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/JobInvokeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-837">
+          <caret line="84" column="34" lean-forward="true" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1022">
+          <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/zhenxinRepository/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/CronExpression.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="133" column="26" lean-forward="false" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/CronUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/Threads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/ScheduleUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/zhenxinRepository/org/springframework/security/spring-security-core/5.1.2.RELEASE/spring-security-core-5.1.2.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1393">
+          <caret line="109" column="30" lean-forward="false" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/manager/factory/AsyncFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+          <folding>
+            <element signature="e#1352#2972#0" expanded="false" />
+            <element signature="e#2971#2972#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/enums/HttpMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="53" column="39" lean-forward="true" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/enums/UserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/service/SysLoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="82" column="33" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/zhenxinRepository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/annotation/Bean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/manager/AsyncManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding>
+            <element signature="e#685#686#0" expanded="false" />
+            <element signature="e#710#711#0" expanded="false" />
+            <element signature="e#815#816#0" expanded="false" />
+            <element signature="e#897#898#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/enums/RedisPublishClassify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/task/TaskFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/task/RyTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="323" column="43" lean-forward="false" selection-start-line="323" selection-start-column="43" selection-end-line="323" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1511" column="26" lean-forward="false" selection-start-line="1511" selection-start-column="26" selection-end-line="1511" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/zhenxinRepository/org/springframework/security/spring-security-core/5.1.2.RELEASE/spring-security-core-5.1.2.RELEASE.jar!/org/springframework/security/access/prepost/PreAuthorize.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="50" column="11" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/QRCodeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="41" column="75" lean-forward="true" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/listener/TriggerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/zhenxinRepository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/TaskExecutorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/SendAndStorageProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/RedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/ThreadPoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/RuoYiConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/datasource/DynamicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/datasource/DynamicDataSourceContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+            <element signature="e#132#164#0" expanded="false" />
+            <element signature="e#313#336#0" expanded="false" />
+            <element signature="e#520#570#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/node_modules/echarts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/LineChart.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1244">
+          <caret line="93" column="10" lean-forward="true" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/monitor/operlog/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5472">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/system/menu/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6099">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/RaddarChart.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/dashboard/BarChart.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="46" column="51" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi-ui/src/views/plan/daliy/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>commonUtils</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.6 (douyin) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ruoyi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28715876" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28715876" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31749243" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
